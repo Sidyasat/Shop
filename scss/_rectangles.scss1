@@ -1,0 +1,15 @@
+// Импорт миксинов
+@import 'mixins';
+
+// Стили для наклонных прямоугольников
+.rectangle-white {
+    @include rectangle(#fff, -5deg);
+    top: 20px;
+    left: 20px;
+}
+
+.rectangle-orange {
+    @include rectangle(#ff6600, 10deg);
+    top: 50px;
+    left: 50px;
+}
